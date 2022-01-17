@@ -180,6 +180,7 @@ console.log(diff_hours(dt1, dt2));
 // console.log(diff_days(dt1, dt2));
 // 6
 
+
 function diff_days(dt2, dt1) 
  {
   var diff =(dt2.getTime() - dt1.getTime()) / 1000;
